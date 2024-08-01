@@ -124,12 +124,11 @@ body{
     border-radius: 50%;
     border: 2px solid #0ef;
     font-size: 20px;
-    color: #0ef;
+    color: #fff;
     text-decoration: none;
     transition: transform 0.5s ;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
-    animation-delay: calc(.2s*var);
     margin: 30px 15px 30px 0;
 }
 .main-sci{
@@ -292,7 +291,6 @@ body{
     overflow: hidden;
 }
 .work img{
-
     border-radius: 10px;
     display: block;
         width: 300px; 
@@ -393,7 +391,7 @@ body{
     border-radius: 50%;
     border: 2px solid #0ef;
     font-size: 20px;
-    color: #0ef;
+    color: #fff;
     text-decoration: none;
     transition: transform 0.5s ;
     opacity: 0;
@@ -408,9 +406,19 @@ body{
     box-shadow: 0 0 20px #0ef;
     transform: translateY(-5px);
 }
-.btn.btn2{
+.btn2{
     display: inline-block;
     background: #022dbaf7;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #022dbaf7;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
+    animation: slideRight 1s ease forwards;
+    animation-duration: 2s;
 }
 .contact-right form{
     width: 100%;
