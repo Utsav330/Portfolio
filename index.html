@@ -6,8 +6,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <link rel="icon" type="image/png" href=".vscode/icon.png" />
+    
 </head>
 <body>
     <header class="head" >
@@ -18,7 +18,7 @@
             <a href="#about" >About</a>
             <a href="#services">Services</a>
             <a href="#portfolio">Work</a>
-            <a href="#content">Content</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     <section class="main" id="home">
@@ -63,13 +63,13 @@ create web design,Front-end  design and many more...
         Web Design and many more. I live in Nepal 
         My home town is in jhapa,dudhe. I live
         With my family. My dream is to work 
-        in google per Month.</p>
+        in google.</p>
     </pre>
         <a href="#" class="button">More About Me</a>
  </div>
 </section>
     <section>
-        <div class="services" id="services">
+        <section class="services" id="services">
             <div class="container">
                 <h1 class="sub-title">My<b>Services</b></h1>
                 <div class="services-list">
@@ -106,9 +106,9 @@ create web design,Front-end  design and many more...
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </section>
-    <div>
+    <section>
         <div class="container"  >
             <h1 class="sub-title" id="portfolio">My<b>Work</b></h1>
             <div class="work-list">
@@ -148,16 +148,38 @@ create web design,Front-end  design and many more...
                         <h3>Instagram Clone</h3>
                         <p>The app connects you to the talanted people
                             around the world.You can find it in my github.</p>
-                        <a href=""><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/Utsav330/InstaGram-Clone"><i class='bx bx-link-external'></i></a>
                     </div>
 
                 </div>
+                <div class="work">
+                    <img src="https://plus.unsplash.com/premium_photo-1682079663886-534912cb40f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fDEwJTI1fGVufDB8fDB8fHww" alt="">
+                    <div class="layer">
+                        <h3>SI Calculator</h3>
+                        <p>The app connects you to the talanted people
+                            around the world.You can find it in my github.</p>
+                        <a href="https://github.com/Utsav330/SI-Calculator"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://plus.unsplash.com/premium_photo-1690479511884-47f46c748b51?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <div class="layer">
+                        <h3>Rock Paper Scissors</h3>
+                        <p>The app connects you to the talanted people
+                            around the world.You can find it in my github.</p>
+                        <a href="https://github.com/Utsav330/Rock-Paper-Scissors"><i class='bx bx-link-external'></i></a>
+                    </div>
+
+                </div>
+
+                
             </div>
-            <a href="https://github.com/Utsav330?" class="btn">See More</a>
         </div>
-    </div>
-  
-    <div id="content">
+            <a href="https://github.com/Utsav330?" class="btn">See More</a>
+        
+        
+    </section>
+    <section id="contact">
         <div class="container">
             <h1 class="sub-title">Contact <b>Me</b></h1>
             <div class="row">
@@ -172,20 +194,19 @@ create web design,Front-end  design and many more...
                         <a href="https://bit.ly/3WhfIsy" ><i class='bx bxl-whatsapp' ></i></a>
                         <a href="https://github.com/Utsav330?" ><i class='bx bxl-github'></i></a>
                     </div>
-                    <a href="" download class="btn btn2">Download CV</a>
+                    <a href="" download class="btn3">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form action="https://formsubmit.co/utsavtowards@gmail.com" method="POST" />
                         <input type="text" name="Name" placeholder="Your Name" id="input1" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn2c x">Submit</button>
+                        <button type="submit" class="btn2" onclick="prevent()">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
-    </div>
-    
+    </section>
     <script src="main.js"></script>
 </body>
 </html>
